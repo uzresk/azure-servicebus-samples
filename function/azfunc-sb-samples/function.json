@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "queue",
+      "connection": ""
+    },
+    {
+      "name": "output",
+      "type": "serviceBus",
+      "queueName": "outputqueue",
+      "connection": "OutputConnection",
+      "direction": "out"
+    }
+  ]
+}
